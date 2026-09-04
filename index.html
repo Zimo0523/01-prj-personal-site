@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link to FontAwesome for Icons (LevelUp bonus) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+
+    <!-- Navigation Bar (LevelUp bonus) -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="home">
+        <h1>Hi, I'm Zimo Wang!</h1>
+        <p>Game Design Student & Artist</p>
+        <div class="avatar">👤</div>
+        <p>Aspiring Web Developer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- 2. Bio Section -->
+        <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate Game Design student. I love bringing worlds to life through storytelling and coding. Outside of class, I spend a lot of time drawing and sketching characters, which helps me visualize my game concepts. This site is where I will share my journey, projects, and creative process.</p>
+    </section>
+
+    <!-- 3. Skills Section (with Icons) -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fab fa-html5" style="color:#e34f26;"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt" style="color:#1572b6;"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js" style="color:#f7df1e;"></i>
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>This is the first project I built using HTML and CSS with the help of AI.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2: Coming Soon</h3>
+            <p>Future project placeholder.</p>
+        </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+    </section>
+
 </body>
 </html>
