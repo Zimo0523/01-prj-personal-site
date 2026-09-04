@@ -66,6 +66,8 @@ nav a:hover {
 
 .skill {
     font-size: 30px;
+    width: 120px;
+    text-align: center;
 }
 
 .skill p {
